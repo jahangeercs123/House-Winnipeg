@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'CourierNewRegular';
+    src: url('../fonts/CourierNewPSMT.woff2') format('woff2'),
+        url('../fonts/CourierNewPSMT.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'CourierNewBold';
+    src: url('../fonts/CourierNewBold.woff2') format('woff2'),
+        url('../fonts/CourierNewBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Impact';
+    src: url('../fonts/Impact.woff2') format('woff2'),
+        url('../fonts/CourierNewBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
