@@ -533,6 +533,7 @@ footer {
 
 	.header-buttom {
 		padding: 15px 20px;
+		display: block;
 	}
 
 	nav ul:last-child li a {
