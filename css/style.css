@@ -49,8 +49,8 @@ h4 {
 	/* toggle icon  start*/
 	.hamburger {
 		top: 14px;
-   		 right: -12px;
-		width: 33px;	
+		right: -12px;
+		width: 33px;
 		height: 3px;
 		background: red;
 		position: absolute;
@@ -100,9 +100,11 @@ h4 {
 	.logo img {
 		max-width: 85%;
 	}
-	.header-top{
+
+	.header-top {
 		padding: 15px 20px;
 	}
+
 	.header-top .logo {
 		display: flex;
 		justify-content: space-between;
@@ -117,7 +119,7 @@ h4 {
 		display: block;
 	}
 
-	nav ul li{
+	nav ul li {
 		padding: 14px;
 	}
 
@@ -131,29 +133,28 @@ h4 {
 
 	nav ul li:last-child a {
 		width: 168px;
-    display: flex;
-    color: #fff;
-	background-color: #5e8803;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 0px;
-    font-size: 20px;
+		display: flex;
+		color: #fff;
+		background-color: #5e8803;
+		justify-content: center;
+		align-items: center;
+		padding: 12px 0px;
+		font-size: 20px;
 	}
 
-	nav ul li:last-child a:hover{
+	nav ul li:last-child a:hover {
 		background-color: black;
 	}
-	
+
 	/* ...........banner....... */
 	.banner {
-		padding-bottom: 50px;
+		padding: 25px 16px;
 		background-color: #e4e0e0;
 	}
 
 	.banner-row {
 		display: flex;
 		width: 100%;
-		padding: 20px 30px;
 		flex-direction: column;
 	}
 
@@ -170,11 +171,12 @@ h4 {
 		width: 100%;
 	}
 
-	.banner-left span {
+	.banner-left h1 {
 		font-size: 25px;
 		color: #f90214;
 		font-family: 'Impact';
-		line-height: 1.5;
+		line-height: 2;
+		/* max-width: 450px; */
 	}
 
 	.banner-left p {
@@ -244,14 +246,12 @@ h4 {
 		margin-bottom: 16px;
 		font-family: 'CourierNewRegular';
 		border: none;
-		text-align: center;
 		width: 100%;
-		padding: 45px 14px;
+		padding: 30px 18px;
 		font-size: 20px;
 	}
 
-	.contact-for-offer a {
-		width: 90%;
+	.form-wrapper input[type="button"] {
 		font-size: 22px;
 		color: #000;
 		background-color: #f6d014;
@@ -260,9 +260,10 @@ h4 {
 		font-family: 'CourierNewBold';
 		transition: 0.5s ease-in-out all;
 		justify-content: center;
+		margin-bottom: 0px;
 	}
 
-	.contact-for-offer a:hover {
+	.form-wrapper input[type="button"]:hover {
 		background-color: #5e8803;
 	}
 
@@ -306,7 +307,7 @@ h4 {
 	}
 
 	.get-fast-paid {
-		padding: 30px 20px;
+		padding: 40px 20px;
 	}
 
 	.get-fast-paid p {
@@ -316,6 +317,7 @@ h4 {
 		text-align: center;
 		border-bottom: 1px solid #f6d014;
 		padding-bottom: 25px;
+		margin-bottom: 20px;
 	}
 
 	.paid-column-left img {
@@ -325,7 +327,6 @@ h4 {
 	.get-paid-row {
 		display: flex;
 		flex-direction: column;
-		padding-top: 30px;
 		gap: 30px;
 		align-items: center;
 	}
@@ -356,7 +357,7 @@ h4 {
 		font-family: 'CourierNewBold';
 		font-size: 24px;
 		text-align: center;
-		padding-bottom: 25px;
+		margin-bottom: 20px;
 	}
 }
 
@@ -380,6 +381,8 @@ h4 {
 	color: #fff;
 	font-size: 19px;
 	font-family: 'CourierNewBold';
+	width: 100%;
+	max-width: 297px;
 }
 
 .simple-process p {
@@ -388,6 +391,7 @@ h4 {
 	font-family: 'CourierNewRegular';
 	text-align: center;
 	line-height: 1.5;
+	width: 100%;
 	max-width: 542px;
 	margin: auto;
 	margin-bottom: 20px;
@@ -418,7 +422,7 @@ footer {
 	color: #3a3838;
 	margin: 10px 0px;
 }
-
+/*..... media for 481..... */
 @media (min-width: 481px) {
 	.icon-one {
 		position: absolute;
@@ -426,25 +430,26 @@ footer {
 		right: 0px;
 		cursor: pointer;
 	}
-	/* nav ul li{
-		padding: 12px 10px;
-	} */
+
 	nav ul li {
 		padding: 16px;
 	}
-	nav ul li a{
+
+	nav ul li a {
 		font-size: 20px;
 	}
-	nav ul li:last-child a{
+
+	nav ul li:last-child a {
 		width: 185px;
 		padding: 15px 0px;
-   		 font-size: 22px;
+		font-size: 22px;
 	}
-	.hamburger {	
-	top: 0px;
-    right: -12px;
-    height: 4px;
-    width: 43px;
+
+	.hamburger {
+		top: 0px;
+		right: -12px;
+		height: 4px;
+		width: 43px;
 	}
 
 	.hamburger-one:before,
@@ -452,15 +457,16 @@ footer {
 		width: 43px;
 		height: 4px;
 	}
-
+	.banner {
+		padding: 35px 20px;
+	}
 	.header-top {
 		padding: 15px 20px;
 	}
 
-	.banner-left span {
+	.banner-left h1 {
 		font-size: 30px;
 	}
-
 	.banner-left p {
 		line-height: 1.5;
 		font-size: 20px;
@@ -471,27 +477,26 @@ footer {
 		margin-bottom: 30px;
 	}
 
-.banner-right {
-	display: flex;
-	width: 100%;
-	margin-top: 15px;
-	justify-content: center;
-}
+	.banner-right {
+		display: flex;
+		width: 100%;
+		margin-top: 15px;
+		justify-content: center;
+	}
 
-.house-column-left p {
-	font-size: 22px;
-}
+	.house-column-left p {
+		font-size: 22px;
+	}
 
-.house-condition h4 {
-	margin-bottom: 25px;
-	font-size: 22px;
-}
+	.house-condition h4 {
+		margin-bottom: 25px;
+		font-size: 22px;
+	}
 
-.house-condition {
-	padding: 25px 20px;
+	.house-condition {
+		padding: 40px 20px;
+	}
 }
-}
-/*  */
 /*........ media 768...... */
 @media (min-width: 768px) {
 	.header-top {
@@ -521,11 +526,12 @@ footer {
 		gap: 12px;
 		align-items: center;
 		flex-direction: row;
-		/* padding: 20px; */
 	}
-	nav ul li{
+
+	nav ul li {
 		padding: 0px;
 	}
+
 	nav ul li a {
 		color: #000;
 		font-size: 22px;
@@ -550,11 +556,15 @@ footer {
 		font-size: 19px;
 	}
 
+	.banner {
+		padding: 50px 25px;
+	}
+
 	.banner-row {
 		display: flex;
 		width: 100%;
 		gap: 20px;
-		padding: 20px 20px;
+		padding: 0px;
 		flex-direction: row;
 	}
 
@@ -569,13 +579,10 @@ footer {
 
 	.contact-for-offer h3 {
 		font-size: 25px;
+		margin-bottom: 20px;
 	}
 
 	.contact-for-offer form {
-		width: 90%;
-	}
-
-	.contact-for-offer textarea {
 		width: 90%;
 	}
 
@@ -593,6 +600,10 @@ footer {
 
 	.form-wrapper {
 		padding: 40px 15px;
+	}
+
+	.house-condition {
+		padding: 40px 20px;
 	}
 
 	.house-row {
@@ -622,13 +633,12 @@ footer {
 	}
 
 	.get-fast-paid {
-		padding: 30px 30px;
+		padding: 60px 30px;
 	}
 
 	.get-paid-row {
 		display: flex;
 		gap: 50px;
-		padding-top: 35px;
 		width: 100%;
 		flex-direction: row;
 		align-items: flex-start;
@@ -638,13 +648,11 @@ footer {
 		font-size: 22px;
 		line-height: 1.5;
 		text-align: left;
-		padding-bottom: 28px;
+		margin-bottom: 30px;
 	}
 
 	.paid-column-right {
 		width: 50%;
-		padding-bottom: 40px;
-		/* margin-bottom: 61px; */
 	}
 
 	.paid-column-left {
@@ -670,11 +678,12 @@ footer {
 
 	.simple-process h5 {
 		font-size: 31px;
+		margin-bottom: 30px;
 	}
 
 	.simple-process p {
 		font-size: 22px;
-		margin-bottom: 29px;
+		margin-bottom: 0px;
 	}
 
 	.simple-process-cards {
@@ -704,6 +713,10 @@ footer {
 		margin: 0 auto;
 	}
 
+	.banner {
+		padding: 60px 0px;
+	}
+
 	.header-top {
 		padding: 33px 22px;
 	}
@@ -722,9 +735,8 @@ footer {
 	.header-buttom {
 		padding: 25px 29px;
 	}
-
-	.banner-left span {
-		font-size: 40px;
+	.banner-left h1 {
+		font-size: 38px;
 	}
 
 	.banner-left p {
@@ -736,14 +748,14 @@ footer {
 
 	.contact-for-offer h3 {
 		font-size: 34px;
-		padding: 40px 10px;
+		margin-bottom: 40px;
 	}
 
 	.banner-row {
 		display: flex;
 		width: 100%;
 		gap: 20px;
-		padding: 30px 0px;
+		padding: 0px;
 		flex-direction: row;
 	}
 
@@ -759,7 +771,11 @@ footer {
 	}
 
 	.form-wrapper {
-		padding-bottom: 60px;
+		padding: 80px 0px;
+	}
+
+	.house-condition {
+		padding: 60px 0px;
 	}
 
 	.house-condition h4 {
@@ -784,18 +800,14 @@ footer {
 	}
 
 	.get-fast-paid {
-		padding: 50px 70px;
+		padding: 50px 0px;
 	}
 
 	.get-fast-paid p {
 		font-size: 27px;
 		line-height: 1.5;
-		padding-bottom: 45px;
+		margin-bottom: 30px;
 		text-align: left;
-	}
-
-	.get-paid-row {
-		padding-top: 40px;
 	}
 
 	.simple-process p {
@@ -807,11 +819,8 @@ footer {
 	}
 
 	.simple-process h5 {
+		margin-bottom: 50px;
 		font-size: 40px;
-	}
-
-	.simple-process h5 {
-		padding-bottom: 50px;
 	}
 
 	.footer-wrapper {
