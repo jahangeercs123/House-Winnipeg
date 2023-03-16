@@ -176,7 +176,7 @@ h4 {
 		color: #f90214;
 		font-family: 'Impact';
 		line-height: 2;
-		/* max-width: 450px; */
+		letter-spacing: 1.25px;
 	}
 
 	.banner-left p {
@@ -355,7 +355,7 @@ h4 {
 	.simple-process h5 {
 		color: #fff;
 		font-family: 'CourierNewBold';
-		font-size: 24px;
+		font-size: 20px;
 		text-align: center;
 		margin-bottom: 20px;
 	}
@@ -363,14 +363,13 @@ h4 {
 
 .simple-process-cards {
 	display: flex;
-	width: 100%;
 	flex-direction: column;
 	margin-bottom: 20px;
 }
 
 .process-card {
-	width: 100%;
 	text-align: center;
+	margin-bottom: 30px;
 }
 
 .process-card img {
@@ -379,13 +378,14 @@ h4 {
 
 .process-card p {
 	color: #fff;
-	font-size: 19px;
+	font-size: 16px;
 	font-family: 'CourierNewBold';
 	width: 100%;
 	max-width: 297px;
+	margin: auto;
 }
 
-.simple-process p {
+.cards-pragraph-wrapper p {
 	font-size: 16px;
 	color: #fff;
 	font-family: 'CourierNewRegular';
@@ -422,6 +422,7 @@ footer {
 	color: #3a3838;
 	margin: 10px 0px;
 }
+
 /*..... media for 481..... */
 @media (min-width: 481px) {
 	.icon-one {
@@ -457,9 +458,11 @@ footer {
 		width: 43px;
 		height: 4px;
 	}
+
 	.banner {
 		padding: 35px 20px;
 	}
+
 	.header-top {
 		padding: 15px 20px;
 	}
@@ -467,6 +470,7 @@ footer {
 	.banner-left h1 {
 		font-size: 30px;
 	}
+
 	.banner-left p {
 		line-height: 1.5;
 		font-size: 20px;
@@ -496,7 +500,12 @@ footer {
 	.house-condition {
 		padding: 40px 20px;
 	}
+
+	.process-card p {
+		max-width: 418px;
+	}
 }
+
 /*........ media 768...... */
 @media (min-width: 768px) {
 	.header-top {
@@ -580,10 +589,6 @@ footer {
 	.contact-for-offer h3 {
 		font-size: 25px;
 		margin-bottom: 20px;
-	}
-
-	.contact-for-offer form {
-		width: 90%;
 	}
 
 	.banner-left a {
@@ -671,6 +676,11 @@ footer {
 		font-size: 24px;
 	}
 
+	.process-card {
+		margin-bottom: 0px;
+		width: 33%;
+	}
+
 	.process-card img {
 		max-width: 100%;
 		margin-bottom: 30px;
@@ -682,8 +692,13 @@ footer {
 	}
 
 	.simple-process p {
-		font-size: 22px;
+		font-size: 16px;
 		margin-bottom: 0px;
+		max-width: 687px;
+	}
+
+	.cards-pragraph-wrapper p {
+		font-size: 18px;
 	}
 
 	.simple-process-cards {
@@ -735,8 +750,11 @@ footer {
 	.header-buttom {
 		padding: 25px 29px;
 	}
+
 	.banner-left h1 {
 		font-size: 38px;
+		letter-spacing: 2px;
+
 	}
 
 	.banner-left p {
@@ -811,7 +829,7 @@ footer {
 	}
 
 	.simple-process p {
-		max-width: 942px;
+		max-width: 1050px;
 	}
 
 	.simple-process {
